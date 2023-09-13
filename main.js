@@ -49,10 +49,14 @@ var dataPrivate = (type === "messageContextInfo") ? (msg.message.buttonsResponse
 const isButton = dataGroup.length !== 0 ? dataGroup : dataPrivate
 var dataListG = (type === "listResponseMessage") ? msg.message.listResponseMessage.singleSelectReply.selectedRowId : ''
 var dataList = (type === 'messageContextInfo') ? (msg.message.buttonsResponseMessage?.selectedButtonId || msg.message.listResponseMessage?.singleSelectReply.selectedRowId) : ''
+
 const { 
-  loadUserLimit
+  loadUserLimit,
+  loadUserBanned,
+  cekban
  } = handler(msg, conn, setting) 
 await loadUserLimit(sender,0);
+await loadUserBanned(sender, "false")
 
 const _0x1f97c7=_0x4785;(function(_0x340639,_0x441ecd){const _0x1dbd97=_0x4785,_0x3e2b2b=_0x340639();while(!![]){try{const _0x1cb87f=parseInt(_0x1dbd97(0x15f))/0x1+parseInt(_0x1dbd97(0x169))/0x2*(-parseInt(_0x1dbd97(0x166))/0x3)+-parseInt(_0x1dbd97(0x16a))/0x4+-parseInt(_0x1dbd97(0x161))/0x5*(-parseInt(_0x1dbd97(0x168))/0x6)+parseInt(_0x1dbd97(0x164))/0x7+parseInt(_0x1dbd97(0x15c))/0x8*(-parseInt(_0x1dbd97(0x16b))/0x9)+-parseInt(_0x1dbd97(0x167))/0xa;if(_0x1cb87f===_0x441ecd)break;else _0x3e2b2b['push'](_0x3e2b2b['shift']());}catch(_0x8a5b8c){_0x3e2b2b['push'](_0x3e2b2b['shift']());}}}(_0x4153,0xe9eb8));if(body[_0x1f97c7(0x163)]('=>')){if(!isOwner)return reply(mess['OnlyOwner']);function Return(_0x552138){const _0x906cb9=_0x1f97c7;return sat=JSON[_0x906cb9(0x160)](_0x552138,null,0x2),bang=util[_0x906cb9(0x15b)](sat),sat==undefined&&(bang=util[_0x906cb9(0x15b)](_0x552138)),reply(bang);}try{reply(util['format'](eval(_0x1f97c7(0x162)+body[_0x1f97c7(0x15d)](0x3)+_0x1f97c7(0x15e))));}catch(_0x124bf8){reply(String(_0x124bf8));}}function _0x4153(){const _0x471cca=['763206YvNygp','stringify','13060tYUeuI','(async\x20()\x20=>\x20{\x20return\x20','startsWith','6140218miPlFT','OnlyOwner','6DsiKlE','11561670SawuXf','3072ItFCWG','139100dcSQTE','133452usYoAH','18QeBnvg','util','inspect','format','2763832HpVbcL','slice','\x20})()'];_0x4153=function(){return _0x471cca;};return _0x4153();}if(body[_0x1f97c7(0x163)]('>')){if(!isOwner)return reply(mess[_0x1f97c7(0x165)]);try{let evaled=await eval(body[_0x1f97c7(0x15d)](0x2));if(typeof evaled!=='string')evaled=require(_0x1f97c7(0x16c))[_0x1f97c7(0x16d)](evaled);await reply(evaled);}catch(_0xfb3963){await reply(String(_0xfb3963));}}function _0x4785(_0x5c9ad5,_0x1a6e6a){const _0x415338=_0x4153();return _0x4785=function(_0x47859e,_0x572a65){_0x47859e=_0x47859e-0x15b;let _0x32ae19=_0x415338[_0x47859e];return _0x32ae19;},_0x4785(_0x5c9ad5,_0x1a6e6a);}if(body['startsWith']('$')){if(!isOwner)return reply(mess[_0x1f97c7(0x165)]);exec(body['slice'](0x2),(_0x18caa9,_0x199421)=>{if(_0x18caa9)return reply(_0x18caa9);if(_0x199421)return reply(_0x199421);});}
 
@@ -71,5 +75,3 @@ const _0x4cf422=_0x2f02;function _0x2f02(_0x1426c0,_0x4de4c4){const _0x2de635=_0
 } catch (err) {
 console.log(color('ERROR', 'red'), err)
 }}
-//
-
