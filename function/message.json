@@ -2,6 +2,7 @@
     "wait": "Loading...",
     "daftar": "Untuk Menggunakan Fitur Ini Silahkan Daftar Terlebih Dahulu Ketik .daftar nama.umur\nContoh .daftar samsul.22",
     "limit": "Limit Kamu Sudah Habis Tidak Bisa Gunain Fitur Ini\nUntuk Nambah Limit Silahkan Ketik\n .claim untuk buy limit banyak(premium) hubungi owner ",
+    "banned": "Kamu Telah Di Banned Owner Tidak Bisa Menggunakan Bot\nSilahkan Konfirmasi Ke Owner",
     "error": {
         "Iv": "Link yang kamu berikan tidak valid",
         "api": "Maaf terjadi kesalahan"
