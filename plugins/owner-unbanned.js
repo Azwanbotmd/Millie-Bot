@@ -2,7 +2,7 @@ const handler = require('../handler');
 module.exports = async (conn, msg, setting) => {
 const { from, q, command, isOwner, reply, addBanned } = handler(msg, conn, setting);
 const name = ["OWNER"];
-const tag = ["unbanned <can using bot again>"];
+const tag = ["unbanned"];
 const help = ["unbanned", "unban"]
 
   if (help.includes(command)) {
