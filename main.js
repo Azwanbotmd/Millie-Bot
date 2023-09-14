@@ -49,11 +49,13 @@ var dataPrivate = (type === "messageContextInfo") ? (msg.message.buttonsResponse
 const isButton = dataGroup.length !== 0 ? dataGroup : dataPrivate
 var dataListG = (type === "listResponseMessage") ? msg.message.listResponseMessage.singleSelectReply.selectedRowId : ''
 var dataList = (type === 'messageContextInfo') ? (msg.message.buttonsResponseMessage?.selectedButtonId || msg.message.listResponseMessage?.singleSelectReply.selectedRowId) : ''
-
+/**
+Do Callback to loop user limit and banned to add database
+Don't Change !
+**/
 const { 
   loadUserLimit,
-  loadUserBanned,
-  cekban
+  loadUserBanned
  } = handler(msg, conn, setting) 
 await loadUserLimit(sender,0);
 await loadUserBanned(sender, "false")
