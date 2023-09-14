@@ -18,6 +18,7 @@ const logg = require('pino')
 require('./function/ObjectPath.js');
 require('./function/FuncTerm.js');
 require('./function/FuncListen.js');
+require('./function/pathDirDB.js');
 const { serialize, 
   fetchJson, 
   getBuffer 
