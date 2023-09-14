@@ -6,7 +6,7 @@ const tag = ["claim"];
 const help = ["claim", "daily"];
 
   if (help.includes(command)) {
-    var claim_limit = 50;
+    var claim_limit = 25;
     const claimedAmount = await claim(sender, claim_limit);
     if (claimedAmount !== undefined) {
       reply(`Claim Sukses Anda Mendapatkan Limit ${claimedAmount} Untuk Hari Ini\n Request Penggunaan Bot Perhari Adalah ${claim_limit} Limit\nKamu Bisa Klaim Lagi Di Esok Hari\nKetik .limit untuk cek Limit`);
