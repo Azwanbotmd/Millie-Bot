@@ -1,6 +1,6 @@
 const handler = require('../handler');
 module.exports = async (conn, msg, setting) => {
-const { from, addlimit, prefix, q, db_user, fs, mentions, sleep, makeid, addlimitUser, cekUser, sender, command,reply } = handler(msg, conn, setting);
+const { from, prefix, q, db_user, fs, mentions, sleep, makeid, addlimitUser, cekUser, sender, command,reply } = handler(msg, conn, setting);
 const name = ["MAIN MENU"];  
 const tag = ["daftar"];
 const help = ["verify", "daftar", "v"]
@@ -13,8 +13,7 @@ let umur = q.split(".")[1];
 let object_user = {"id": sender, "name": user_name, "umur": umur, "seri": res_us, "premium": false }
 db_user.push(object_user)
 fs.writeFileSync('./database/pengguna.json', JSON.stringify(db_user, null, 2))
-await sleep(1000)
-await addlimit(sender)
+await sleep(2000)
 await addlimitUser(sender, 15)
 var verify_teks =`
 Number : +${sender.split('@')[0]}
