@@ -4,8 +4,8 @@
 Banyak Update Gitclone Ulang Saja
 untuk ganti yang lain lain ada di
 config.json  dan lainnya
-bisa di termux? bisa dong
-semua nya support
+bisa di termux? bisa 
+semua nya support asal kalo mau run di termux node modul nya harus udh di donlod,donlod lewat replit ajh atau hosting yang kalian buat run
 
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
