@@ -9,7 +9,7 @@ const help = ["claim", "daily"];
     var claim_limit = 50;
     const claimedAmount = await claim(sender, claim_limit);
     if (claimedAmount !== undefined) {
-      reply(`Claim Sukses Anda Mendapatkan Limit ${claimedAmount} Untuk Hari Ini\n Request Penggunaan Bot Perhari Adalah ${claim_limit} Limit\n Ketik .limit untuk cek Litim`);
+      reply(`Claim Sukses Anda Mendapatkan Limit ${claimedAmount} Untuk Hari Ini\n Request Penggunaan Bot Perhari Adalah ${claim_limit} Limit\nKamu Bisa Klaim Lagi Di Esok Hari\nKetik .limit untuk cek Limit`);
     }
   }
   return { claim_limit };
