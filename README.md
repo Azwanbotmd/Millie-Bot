@@ -4,6 +4,8 @@
 Banyak Update Gitclone Ulang Saja
 untuk ganti yang lain lain ada di
 config.json  dan lainnya
+bisa di termux? bisa dong
+semua nya support
 
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
