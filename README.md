@@ -7,11 +7,15 @@ config.json  dan lainnya
 bisa di termux? bisa 
 semua nya support asal kalo mau run di termux node modul nya harus udh di donlod,donlod lewat replit ajh atau hosting yang kalian buat run
 
-Jika Ingin Menghilangkan Harus Daftar Di Bagian Plugins yang ada daftar nya hapus saja yang ada seperti ini
+Jika ingin menghilangkan daftar di setiap command hapus saja bagian ini 
 
 ```
 if (daftar) return reply(mess.daftar)
 ```
+
+pada file plugin yang ada ini nya
+tapi untuk jaga jaga saja agar bot kalian tidak selalu di spam
+
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
 
