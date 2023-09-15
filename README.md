@@ -23,6 +23,13 @@ const { daftar } = handler(msg, conn, setting);
 pada file plugin yang ada ini nya
 tapi untuk jaga jaga saja agar bot kalian tidak selalu di spam
 
+
+ini juga boleh kalian hapus karna di handler sudah,di perbarui
+```
+reply(`${limit} Limit Terpakai`)
+```
+
+
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
 
