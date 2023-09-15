@@ -9,10 +9,15 @@ semua nya support asal kalo mau run di termux node modul nya harus udh di donlod
 
 
 
-jika ingin menghilangkan daftar di setiap command hapus saja bagian ini 
+jika ingin menghilangkan daftar di setiap command hapus saja bagian ini pada file plugins
 
 ```
 if (daftar) return reply(mess.daftar)
+```
+dan handler daftar hilangkan saja
+
+```
+const { daftar } = handler(msg, conn, setting);
 ```
 
 pada file plugin yang ada ini nya
