@@ -7,7 +7,9 @@ config.json  dan lainnya
 bisa di termux? bisa 
 semua nya support asal kalo mau run di termux node modul nya harus udh di donlod,donlod lewat replit ajh atau hosting yang kalian buat run
 
-Jika ingin menghilangkan daftar di setiap command hapus saja bagian ini 
+
+
+jika ingin menghilangkan daftar di setiap command hapus saja bagian ini 
 
 ```
 if (daftar) return reply(mess.daftar)
