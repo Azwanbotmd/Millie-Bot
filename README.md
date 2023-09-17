@@ -1,4 +1,6 @@
 
+## LAGI UPDATE BESAR TAHAN DULU!
+
 ## MILLIE BOT MD 
 ## New Update
 Banyak Update Gitclone Ulang Saja
