@@ -1,5 +1,5 @@
 
-## LAGI UPDATE BESAR TAHAN DULU!
+## LAGI UPDATE BESAR TAHAN DULU! sementara yang lama dulu
 
 ## MILLIE BOT MD 
 ## New Update
