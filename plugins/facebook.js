@@ -6,7 +6,7 @@ const help = ["facebook", "fb", "fbdl"]
 const limit = 2
   
   if (help.includes(command)) {      
-      if (ceklimit) return reply(mess.limit)
+      if (ceklimit) return msg.reply(mess.limit)
       if (!text) return msg.reply('Masukan link facebook nya! \nContoh: .facebook https://www.facebook.com/vvalent228/videos/658537269609282/?mibextid=h4kR3UXRu7XTHhH5 ');
         let res = await fetch(`https://vihangayt.me/download/fb2?url=${text}`)
         let fb = await res.json()        
