@@ -29,4 +29,3 @@ const help = ["verify", "daftar", "v"];
     msg.reply(`Daftar Berhasil √\nNama: ${nama}\nUmur: ${umur}\nSerial Number: ${user.seri}\nAnda mendapatkan ${give_limit} limit setelah mendaftar.\nSilahkan Ketik .menu `)
   }
 };
-
