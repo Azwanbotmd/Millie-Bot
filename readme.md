@@ -1,5 +1,5 @@
-Hanya second sc kedua not main sc
-
+Just second script not my main sc
+i just messing around with this because i wanna make new base from zero from npm init
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
 
