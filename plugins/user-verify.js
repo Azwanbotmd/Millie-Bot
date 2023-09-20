@@ -1,5 +1,5 @@
 exports.on = async (msg, { command, text, mess, addLimit, makeid, isRegister, registering, sleep }) => {
-const name = ["MAIN MENU"];
+const name = ["USER MENU"];
 const tag = ["daftar", "verify"];
 const help = ["verify", "daftar", "v"];
 
