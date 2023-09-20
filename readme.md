@@ -1,4 +1,4 @@
-## Hanya second sc kedua not main sc
+Hanya second sc kedua not main sc
 
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
