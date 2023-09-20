@@ -1,5 +1,5 @@
 exports.on = async ( msg, { command, checkLimitUser }) => {
-const name = ["INFO"];
+const name = ["USER MENU"];
 const tag = ["limit"];
 const help = ["limit"];
 
