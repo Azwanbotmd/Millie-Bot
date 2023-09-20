@@ -1,24 +1,4 @@
-Just second script not my main sc
-i just messing around with this because i wanna make new base from zero from npm init
-
-nambah fitur atau plugin baru
-```
-exports.on = async ( msg, { conn, command, ceklimit, limitnya, mess }) => {
-const name = ["TES"];  //nama kategori kategori 
-const tag = ["ya"];// nama command yang di tampilkan di kategori
-const help = ["ya", "y"] //perintah nya 
-const limit = 2 // mau ngasih limit nya berapa dan kasih ini untuk cek dulu
- if (ceklimit) return msg.reply(mess.limit)
-
-jika sudah baru yang ini taro di bagian bawah setelah kode dijalankan
-limitnya(msg.sender,limit)
-
-    if (help.includes(command)) {     
-     // kode disini      
-   }
-};
-```
-selanjutnya pelajari sendiri ambil nilai yang di perlukan di handler yang sudah saya kasih tanda
+## Millie Bot MD
 
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
@@ -47,7 +27,36 @@ selanjutnya pelajari sendiri ambil nilai yang di perlukan di handler yang sudah 
   <a href="https://github.com/menu20/Millie-Bot#donate">Donate</a>
 </p>
 </div>
+Just second script not my main sc
+i just messing around with this because i wanna make new base from 0 from npm init
 
+nambah fitur atau plugin baru
+```
+exports.on = async ( msg, { conn, command, ceklimit, limitnya, mess }) => {
+const name = ["TES"];  //nama kategori kategori 
+const tag = ["ya"];// nama command yang di tampilkan di kategori
+const help = ["ya", "y"] //perintah nya 
+const limit = 2 // mau ngasih limit nya berapa dan kasih ini untuk cek dulu
+if (ceklimit) return msg.reply(mess.limit)
+
+jika sudah baru yang ini taro di bagian bawah setelah kode dijalankan
+limitnya(msg.sender,limit)
+
+    if (help.includes(command)) {     
+     // kode disini      
+   }
+};
+```
+
+untuk menjalankan langsung tanpa command atau event tidak usah pake help
+```
+exports.on = async ( msg, { conn }) => {
+
+ //kode disini   
+};
+```
+
+selanjutnya pelajari sendiri ambil nilai yang di perlukan di handler yang sudah saya kasih tanda
 
 ---
 
