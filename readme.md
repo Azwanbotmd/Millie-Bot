@@ -81,9 +81,10 @@ selanjutnya pelajari sendiri ambil nilai yang di perlukan di handler yang sudah 
 
 ## Donate
 - [DANA](https://wa.me/628516132636)
-
+ 
 # Thanks to
 - Allah SWT 
 - Ruhend
-- Sigit Prasetyo
+- Amirul Dev (for file function checking before to bot run)
+- Penyedia API
 - Other
