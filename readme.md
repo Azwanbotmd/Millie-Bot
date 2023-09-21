@@ -85,6 +85,6 @@ selanjutnya pelajari sendiri ambil nilai yang di perlukan di handler yang sudah 
 # Thanks to
 - Allah SWT 
 - Ruhend
-- Amirul Dev (for file function checking before to bot run)
+- Amirul Dev (for file function checking before to bot run on my main script esm)
 - Penyedia API
 - Other
