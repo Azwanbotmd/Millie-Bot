@@ -2,6 +2,11 @@
 
 banyak update git clone ulang ajh
 sudah di fix eror install modul
+added switch on off welcome 
+.on or off
+added setppbot
+and other func 
+
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
 
