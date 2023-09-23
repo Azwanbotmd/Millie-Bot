@@ -5,8 +5,10 @@ fix eror install modul
 added switch on off welcome 
 .on or off
 added setppbot
-and other func 
-add sendMedia mempermudah dalam kirim file 
+and other func
+
+add sendMedia 
+mempermudah dalam kirim file 
 
 ```
 msg.sendMedia(`Urlnya`,`Text Nya`)
