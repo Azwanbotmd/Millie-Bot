@@ -2,15 +2,15 @@
 
 banyak update git clone ulang ajh
 fix eror install modul
-added switch on off welcome 
+•added switch on off welcome 
 .on or off
 
-added setppbot
+•added setppbot
 
-and other func
+•and other func
 
 
--add sendMedia 
+•added sendMedia 
 mempermudah dalam kirim file 
 termasuk audio video dan gambar
 ```
