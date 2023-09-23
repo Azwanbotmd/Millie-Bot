@@ -14,9 +14,13 @@ fix eror install modul
 mempermudah dalam kirim file 
 termasuk audio video dan gambar
 ```
+
 msg.sendMedia(`Urlnya`,`Text Nya`)
+
 example
+
 msg.sendMedia('https://pomf2.lain.la/f/8n7d2i8h.png',`Hello World`)
+
 ```
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
