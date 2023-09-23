@@ -4,12 +4,15 @@ banyak update git clone ulang ajh
 fix eror install modul
 added switch on off welcome 
 .on or off
+
 added setppbot
+
 and other func
 
-add sendMedia 
-mempermudah dalam kirim file 
 
+-add sendMedia 
+mempermudah dalam kirim file 
+termasuk audio video dan gambar
 ```
 msg.sendMedia(`Urlnya`,`Text Nya`)
 example
