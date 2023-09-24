@@ -1,6 +1,6 @@
 {
   "name": "Millie Bot MD Simple Banget Bot",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Bot Wea mudah Di Gunakan",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "npm:@ruhend/baileys@6.2.0",
+    "@ruhend/scraper": "latest",
     "@ruhend/tiktok": "^2.0.0",
     "@ruhend/ytmp3": "^1.0.0",
     "@ruhend/ytmp4": "^1.0.0",
