@@ -11,9 +11,6 @@
   "dependencies": {
     "@adiwajshing/baileys": "npm:@ruhend/baileys@6.2.0",
     "@ruhend/scraper": "latest",
-    "@ruhend/tiktok": "^2.0.0",
-    "@ruhend/ytmp3": "^1.0.0",
-    "@ruhend/ytmp4": "^1.0.0",
     "@vitalets/google-translate-api": "^8.0.0",
     "chalk": "^4.1.2",
     "cfonts":"latest",
