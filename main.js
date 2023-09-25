@@ -17,7 +17,7 @@ const chalk = require('chalk')
 const logg = require('pino')
 require('./function/ObjectPath.js');
 require('./function/FuncTerm.js');
-//require('./function/FuncListen.js');
+require('./function/FuncListen.js');
 
 const { serialize, 
   fetchJson, 
