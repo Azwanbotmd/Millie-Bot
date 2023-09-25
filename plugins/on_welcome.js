@@ -5,11 +5,9 @@ const help = ["on"];
 
   if (help.includes(command)) {
     if (!text) return msg.reply(`Masukan Parameternya contoh .on welcome`)          
-    const change = [{
-       id: msg.chat,
-       name: groupName,
+    const change = {       
        welcome: true
-       }]
+       }
    await switchGroup(msg.chat, change);
    msg.reply(`Welcome Berhasil Di Nyalakan Di Group ${groupName}`)
   }
