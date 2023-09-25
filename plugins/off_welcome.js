@@ -4,12 +4,10 @@ const tag = ["off welcome"];
 const help = ["off"];
 
   if (help.includes(command)) {
-    if (!text) return msg.reply(`Masukan Parameternya contoh .on welcome`)          
-    const change = [{
-       id: msg.chat,
-       name: groupName,
+    if (!text) return msg.reply(`Masukan Parameternya contoh .off welcome`)          
+    const change = {       
        welcome: false
-       }]
+       }
    await switchGroup(msg.chat, change);
    msg.reply(`Welcome Berhasil Di Matikan Di Group ${groupName}`)
   }
