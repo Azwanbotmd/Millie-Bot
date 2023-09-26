@@ -7,10 +7,10 @@ const limit = 3
    if (help.includes(command)) {
       if (!isRegister) return msg.reply(mess.daftar)
       if (ceklimit) return msg.reply(mess.limit)
-        let res = 'https://nazunaxz.xyz/api/randomimage/neko'
+        let res = 'https://api.xfarr.com/api/randomimage/neko?apikey=fBwANmhn7q'
         msg.reply(`Loading...`)
         let neko = await res      
-        conn.sendFile(msg.chat, neko, { caption : `*NEKO*` , quoted : msg } )                         
+        conn.sendFile(msg.chat, neko, { caption : `🎗 *Neko* ` , quoted : msg } )                         
         limitnya(msg.sender, limit)        
      }
   } catch (error) {        
