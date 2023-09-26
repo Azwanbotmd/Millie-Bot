@@ -9,7 +9,14 @@ fix eror install modul
 
 •and other func
 
+just quotes ye kali merasa :)
 
+```
+belajarlah menghargai hasil orang
+jangan jadi orang yang dengki
+kamu ga tau dia berkarya atau membuat seperti apa punya hati jangan kotor jangan jadi tipikal yang ga suka sama hasil orang ya lu ga tau dia udh sehebat apa dari sebelum dirimu mengenalnya
+hingga banyak perubahan dari dirinya jadi belajar untuk mengapresiasi hasil orang ya lu ga mau mengakuin berati hati lu emank kotor g seneng liat orang punya hasil padahal itu adalah hasil karya murni yang di bangun dari 0
+```
 
 <p align="center">
 <img src="https://pomf2.lain.la/f/5xiiwv5z.jpg" alt="Millie Bot-Md" width="500"/>
