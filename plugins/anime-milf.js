@@ -7,10 +7,10 @@ const limit = 3
    if (help.includes(command)) {
       if (!isRegister) return msg.reply(mess.daftar)
       if (ceklimit) return msg.reply(mess.limit)
-        let res = 'https://nazunaxz.xyz/api/randomimage/milf'
+        let res = 'https://api.xfarr.com/api/randomimage/nsfwmilf?apikey=fBwANmhn7q'
         msg.reply(`Loading...`)
         let milf = await res      
-        conn.sendFile(msg.chat, milf, { caption : `*MILF*` , quoted : msg } )                         
+        conn.sendFile(msg.chat, milf, { caption : `🎗 *Milf* ` , quoted : msg } )                         
         limitnya(msg.sender, limit)        
      }
   } catch (error) {        
