@@ -7,9 +7,10 @@ const limit = 2
    if (help.includes(command)) {
       if (!isRegister) return msg.reply(mess.daftar)
       if (ceklimit) return msg.reply(mess.limit)
-        let waifu = `https://nazunaxz.xyz/api/randomimage/waifu`
-        msg.reply(`Loading...`)                          
-        conn.sendMessage(msg.chat,{ image:{url:waifu},caption:`*WAIFI*`},{quoted:msg})
+        let res = `https://api.xfarr.com/api/randomimage/waifu?apikey=fBwANmhn7q`
+        msg.reply(`Loading...`)
+        let waifu = await res                      
+        conn.sendMessage(msg.chat,{ image: { url : waifu } , caption:`🎗 *Waifi* ` },{quoted:msg})
         limitnya(msg.sender, limit)        
      }
   } catch (error) {        
