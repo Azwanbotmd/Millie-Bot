@@ -82,10 +82,6 @@ getRandom = (ext) => {
 return `${Math.floor(Math.random() * 10000)}${ext}`
 }
 
-
-conn.chatModify({ delete: true, lastMessages: [msg] }, msg.chat)
-conn.chatModify({ archive: true, lastMessages: [msg] }, msg.chat)
-        
 // Data Awal
 const welcome = true // false untuk tidak aktif, true untuk aktif welcome nya dan untuk on offinya di plugin enable welcome, antilink nyusul , kalo kamu bisa buat ajh sndri pluginya pake regex kalo ya kalo bisa klo engga ya nunggu aku hehe
 const antilink = true
