@@ -31,7 +31,7 @@ const { auto_BlockCaller } = require('./function/Data_Server_Bot/Call_AutoBlock.
 let setting = JSON.parse(fs.readFileSync('./config.json'));
 /**
 di config.json ada ram itu kalian isi dengan ram yang kalian gunakan
-misalnya kalian ngerun di ram 1GB isi 900 , 2GB isi 1900 , kalo ngerun di ram yang kecil misalnya 512MB ya kasih ajh 480 atau 500 begitu
+misalnya kalian ngerun di ram 1GB isi 800 , 2GB isi 1800 , kalo ngerun di ram yang kecil misalnya 512MB ya kasih ajh 300 jangkauan space harus 200 MB
 ngerti ya sesuai selera yang penting ada ruang kosong
 biar ada space jadi ga gampang overload kalo di spam user
 **/
