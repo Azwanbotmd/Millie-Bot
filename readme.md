@@ -1,5 +1,8 @@
 ## Millie Bot MD
 
+repo ini saya usahakan update
+jika ingin request fitur bisa taruh di issue saja dan untuk bikin fitur baru ada di bawah caranya
+
 banyak update git clone ulang ajh
 fix eror install modul
 •added switch on off welcome 
