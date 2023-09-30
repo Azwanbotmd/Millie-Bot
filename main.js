@@ -44,7 +44,7 @@ const { imageToWebp,
   writeExifVid 
  } = require('./function/Exif_Write')
 const { updateGroup } = require("./function/update_Group")
-const store = require('./function/store')
+const store = require('./function/store.js')
 const color = (text, color) => {
     return !color ? chalk.green(text) : chalk.keyword(color)(text)
 }
@@ -62,15 +62,6 @@ printQRInTerminal: true,
 logger: logg({ level: 'silent' }),
 browser: ['Millie Bot','Opera','1.0.0'],
 auth: state,
-getMessage: async (key) => {
-         if (store) {
-            const msg = await store.loadMessage(key.remoteJid, key.id)
-            return msg.message || undefined
-         }
-         return {
-            conversation: ''
-     }
-},
 patchMessageBeforeSending: (message) => {
          const requiresPatch = !!(
             message.buttonsMessage ||
