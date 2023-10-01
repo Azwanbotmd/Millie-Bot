@@ -86,8 +86,8 @@ return `${Math.floor(Math.random() * 10000)}${ext}`
 const welcome = true // false untuk tidak aktif, true untuk aktif welcome nya dan untuk on offinya di plugin enable welcome, antilink nyusul , kalo kamu bisa buat ajh sndri pluginya pake regex kalo ya kalo bisa klo engga ya nunggu aku hehe
 const antilink = true
 const limit = 3
-const uang = 2000
-const kupon = 5
+const uang = 500
+const kupon = 3
 const level = 1
 
 
