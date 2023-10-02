@@ -1,6 +1,6 @@
 ## Millie Bot MD
 
-repo ini saya usahakan update dan sementara maintenance dulu atau sementara tidak di lanjutkan dulu karna mau saya convert ke Type Script agar meload lebih cepat
+repo ini saya usahakan update dan sementara maintenance dulu atau sementara tidak di lanjutkan dulu karna mau saya convert ke Type Lain agar meload lebih cepat
 
 jadi jika ingin menambah fitur baru gunakan contoh yang sudah ada 
 jika ingin request fitur bisa taruh di issue saja atau chat dan untuk bikin fitur baru ada di bawah caranya
@@ -12,7 +12,7 @@ fix eror install modul
 
 •added setppbot
 
-•and other func
+•added other func
 • add kupon and exchange limit by coupon 
 
 just quotes ye kali merasa :)
