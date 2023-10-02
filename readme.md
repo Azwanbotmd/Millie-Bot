@@ -1,7 +1,9 @@
 ## Millie Bot MD
 
-repo ini saya usahakan update
-jika ingin request fitur bisa taruh di issue saja dan untuk bikin fitur baru ada di bawah caranya
+repo ini saya usahakan update dan sementara maintenance dulu atau sementara tidak di lanjutkan dulu karna mau saya convert ke Type Script agar meload lebih cepat
+
+jadi jika ingin menambah fitur baru gunakan contoh yang sudah ada 
+jika ingin request fitur bisa taruh di issue saja atau chat dan untuk bikin fitur baru ada di bawah caranya
 
 banyak update git clone ulang ajh
 fix eror install modul
