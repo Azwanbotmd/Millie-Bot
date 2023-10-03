@@ -9,7 +9,7 @@
   "author": "Ruli Henderson",
   "license": "ISC",
   "dependencies": {
-    "@adiwajshing/baileys": "npm:@ruhend/baileys@6.2.0",
+    "@adiwajshing/baileys": "npm:baileys-wa@5.1.1",
     "@ruhend/scraper": "latest",
     "@vitalets/google-translate-api": "^8.0.0",
     "chalk": "^4.1.2",
