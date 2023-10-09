@@ -1,1 +1,2 @@
-## Redmi nyusul soalnya udh di ubah semua
+## Langsung Git clone ulang 
+Redmi nyusul soalnya udh di ubah semua
