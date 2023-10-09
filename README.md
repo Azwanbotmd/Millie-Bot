@@ -1,4 +1,4 @@
-## Langsung Git clone ulang Ajh
+## Langsung Git clone ulang Ajh update banyak 
 npm install
 
 npm start
