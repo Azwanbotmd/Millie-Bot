@@ -24,7 +24,7 @@ export let on = async (m, {
     registering(user);
     addLimit(m.sender, 15);
     await sleep(3000)
-    m.reply(`Daftar Berhasil √\nNama: ${nama}\nUmur: ${umur}\nSerial Number: ${user.seri}\nAnda mendapatkan 15 limit setelah mendaftar.\nSilahkan Ketik .menu `)
+    m.reply(`Berhasil Daftar √\nNama: ${nama}\nUmur: ${umur}\nSerial Number: ${user.seri}\nAnda mendapatkan 15 limit setelah mendaftar.\nSilahkan Ketik .menu `)
 };
 
 on.names = ['User Menu'];
