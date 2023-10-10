@@ -19,7 +19,7 @@ export let on = async (m, {
             audio: audio,
             mimetype: 'audio/mp4',
             fileName: `.mp3`,
-            ptt: args[1] == '--ptt' ? true : false
+            ptt: true
         }, {
             quoted: m
         })
