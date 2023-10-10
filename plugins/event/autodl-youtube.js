@@ -1,4 +1,4 @@
-import { ytmp3 } from '../../lib/download.js'
+import { ytmp4 } from '../../lib/download.js'
 export let event = async (m, {
     conn,
     budy,
@@ -11,15 +11,13 @@ export let event = async (m, {
         m.reply(`Tunggu...`)
         let {
             title,
-            audio
-        } = await ytmp3(budy);
-        conn.sendMessage(m.chat, {
-            document: {
-                url: audio
-            },
-            fileName: `${title}~RuhendMD.mp3`,
-            mimetype: 'audio/mpeg'
-        }, {
+            video,
+            quality,
+            thumbnail,
+            size
+        } = await ytmp4(budy);
+        conn.sendFile(m.chat, video, {
+            caption: `🍌 Youtube Video \nJudul : ${title}\nKualitas : ${quality}\nSize : ${size}`,
             quoted: m
         })
         limitnya(m.sender, 3)
