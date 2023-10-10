@@ -6,7 +6,7 @@ export let event = async (m, {
     ceklimit,
     mess
 }) => {
-    if (budy.includes('instagram')) {
+    if (!m.isBaileys && budy.includes('instagram')) {
         if (ceklimit) return m.reply(mess.limit);
         m.reply(`Tunggu...`)
         let res = await fetch(`https://vihangayt.me/download/instagram?url=${budy}`)
