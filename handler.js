@@ -54,10 +54,12 @@ let mime = (quoted.m || quoted).mimetype || ''
 let isMedia = /image|video|sticker|audio/.test(mime)
 let sender = m.isGroup ? (m.key.participant ? m.key.participant : m.participant) : m.key.remoteJid
 var type = Object.keys(m.message)[0]
-let isSticker = (type == 'stickerMessage')
+let isSticker = (type == 'stickerMessage')
+
 let isQuoted = (type == 'extendedTextMessage');
 let content = JSON.stringify(m.message)
-let isQuotedSticker = isQuoted ? content.includes('stickerMessage') ? true : false : false 
+let isQuotedSticker = isQuoted ? content.includes('stickerMessage') ? true : false : false 
+
 let isQuotedAudio = isQuoted ? content.includes('audioMessage') ? true : false : false    
 let groupMetadata = m.isGroup ? await conn.groupMetadata(m.chat).catch(e => {}) : ''
 let groupId = m.isGroup ? groupMetadata.id : ''
@@ -101,7 +103,7 @@ function getRandom(ext) {
 // Data Awal
 let welcome = true // false untuk tidak aktif, true untuk aktif welcome nya dan untuk on offinya di plugin enable welcome, antilink nyusul , kalo kamu bisa buat ajh sndri pluginya pake regex kalo ya kalo bisa klo engga ya nunggu aku hehe
 let antilink = true
-let limit = 3
+let limit = 80
 let uang = 500
 let kupon = 3
 let logo_limit = '🍌'
