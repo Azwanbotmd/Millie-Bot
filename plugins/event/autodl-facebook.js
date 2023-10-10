@@ -6,7 +6,7 @@ export let event = async (m, {
     ceklimit,
     mess
 }) => {
-    if (budy.includes('facebook')) {
+    if (!m.isBaileys && budy.includes('facebook')) {
         if (ceklimit) return m.reply(mess.limit);
         m.reply(`Tunggu...`)
         let {
