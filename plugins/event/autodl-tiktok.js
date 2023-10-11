@@ -8,7 +8,7 @@ export let event = async (m, {
     mess
 }) => {
     let tR = /(http(?:s)?:\/\/)?(?:www\.)?(?:tiktok\.com\/@[^\/]+\/video\/(\d+))|(http(?:s)?:\/\/)?vm\.tiktok\.com\/([^\s&]+)|(http(?:s)?:\/\/)?vt\.tiktok\.com\/([^\s&]+)/g;
-    if (!m.isBaileys && tR.test(budy)) {
+    if (tR.test(budy)) {
         if (checkLimitUser(m.sender) <= 0) {
             return m.reply(mess.limit);
         }
