@@ -8,11 +8,12 @@ export let event = async (m, {
     mess
 }) => {
     let Links = /(http(?:s)?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([^\s&]+)/g;
-    if (!m.isBaileys && Links.test(budy)) {
+    let ShortsLinks = /(http(?:s)?:\/\/)?(?:www\.)?youtube\.com\/shorts\/([^\s&]+)/g;
+    if (Links.test(budy) || ShortsLinks.test(budy)) {
         if (checkLimitUser(m.sender) <= 0) {
             return m.reply(mess.limit);
         }
-        let youtubeLinks = budy.match(Links);
+        let youtubeLinks = budy.match(Links) || budy.match(ShortsLinks);
         for (let youtubeLink of youtubeLinks) {
             m.reply(`Tunggu...`);
             let {
