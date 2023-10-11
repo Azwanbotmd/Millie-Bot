@@ -7,7 +7,7 @@ export let event = async (m, {
     checkLimitUser,
     mess
 }) => {
-    if (!m.isBaileys && /(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.gg)\/[^\s/]+(?:\/videos\/\d+\/?)?/.test(budy)) {
+    if (/(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.gg)\/[^\s/]+(?:\/videos\/\d+\/?)?/.test(budy)) {
         if (checkLimitUser(m.sender) <= 0) {
             return m.reply(mess.limit);
         }
