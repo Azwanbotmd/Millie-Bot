@@ -14,7 +14,7 @@ export let event = async (m, {
     dbPlus
 }) => {
     if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && budy && !m.isBaileys) {
-        let jawaban = tebakgambar[m.sender.split('@')[0]] && !m.fromMe
+        let jawaban = tebakgambar[m.sender.split('@')[0]]
         if (budy.toLowerCase() === jawaban) {
             m.reply(`Benar 🌈\nkamu mendapatkan:\n+Limit ${rewards.limit}\n+Uang ${rewards.uang} `);
             dbPlus(m.sender, rewards)
