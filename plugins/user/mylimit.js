@@ -5,7 +5,7 @@ export let on = async (m, {
     if (limitUser !== undefined) {
         m.reply(`Kamu Memiliki ${limitUser} Limit Tersisa`);
     } else {
-        m.reply('Limit tidak ditemukan');
+        m.reply('Limit tidak ditemukan jika owner dan eke di bebaskan');
     }
 };
 
