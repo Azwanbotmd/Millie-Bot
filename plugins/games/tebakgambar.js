@@ -30,8 +30,7 @@ export let on = async (m, {
     command,
     prefix,
     sleep
-}) => {
-    let sent = m.sender;
+}) => {    
     if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) return m.reply("Masih Ada Soal Yang Belum Diselesaikan!")
     let results = await axiosFetch('https://raw.githubusercontent.com/BochilTeam/database/master/games/tebakgambar.json')
     let result = results[Math.floor(Math.random() * results.length)];
