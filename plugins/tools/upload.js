@@ -28,7 +28,7 @@ export let on = async (m, {
         } = await upload(rand2);
         let sizeNy = bytesToSize(size);
 
-        let teks = `*UPLOAD SUKSES*\n*Url :* ${url}\n*Name :* ${name} \n*Size :* ${sizeNy}\n*Type:* Sticker`;
+        let teks = `UPLOAD SUKSES\n*Url :* ${url}\n*Name :* ${name} \n*Size :* ${sizeNy}\n*Type:* Sticker`;
 
         conn.sendMessage(m.chat, {
             text: teks
@@ -68,7 +68,7 @@ export let on = async (m, {
         } = await upload(rand2);
         let sizeNy = bytesToSize(size);
 
-        let teks = `*UPLOAD SUKSES*\n*Url :* ${url}\n*Name :* ${name} \n*Size :* ${sizeNy}\n*Type:* ${mediaType.charAt(0).toUpperCase() + mediaType.slice(1)}`;
+        let teks = `UPLOAD SUKSES\n*Url :* ${url}\n*Name :* ${name} \n*Size :* ${sizeNy}\n*Type:* ${mediaType.charAt(0).toUpperCase() + mediaType.slice(1)}`;
         conn.sendMessage(m.chat, {
             text: teks
         }, {
