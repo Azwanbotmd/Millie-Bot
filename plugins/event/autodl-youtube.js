@@ -10,6 +10,7 @@ export let event = async (m, {
     let Links = /(http(?:s)?:\/\/)?(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)([^\s&]+)/g;
     let ShortsLinks = /(http(?:s)?:\/\/)?(?:www\.)?youtube\.com\/shorts\/([^\s&]+)/g;
     if (Links.test(budy) || ShortsLinks.test(budy)) {
+        if (m.isBaileys) return
         if (checkLimitUser(m.sender) <= 0) {
             return m.reply(mess.limit);
         }
