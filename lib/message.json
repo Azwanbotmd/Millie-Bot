@@ -8,7 +8,7 @@
         "Iv": "Link yang kamu berikan tidak valid",
         "api": "Maaf terjadi kesalahan"
     },
-    "OnlyGrup": "Perintah ini hanya bisa digunakan di grup",
+    "OnlyGroup": "Perintah ini hanya bisa digunakan di grup",
     "OnlyPM": "Perintah ini hanya bisa digunakan di private message",
     "GrupAdmin": "Perintah ini hanya bisa digunakan oleh Admin Grup",   
     "OnlyOwner": "Perintah ini hanya dapat digunakan oleh owner bot",
